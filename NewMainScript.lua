@@ -1643,8 +1643,8 @@ if shared.VapeIndependent then
 	return GuiLibrary
 else
 	loadstring(GetURL("AnyGame.lua"))()
-	if betterisfile("vape/CustomModules/"..game.PlaceId..".lua") then
-		loadstring(readfile("vape/CustomModules/"..game.PlaceId..".lua"))()
+	if betterisfile("vape/CustomModules/6872274481.lua") then
+		loadstring(readfile("vape/CustomModules/6872274481.lua"))()
 	else
 		local publicrepo = checkpublicrepo(game.PlaceId)
 		if publicrepo then
@@ -1669,7 +1669,7 @@ else
 	if not shared.VapeSwitchServers then
 		if blatantmode["Enabled"] then
 			pcall(function()
-				local frame = GuiLibrary["CreateNotification"]("Blatant Enabled", "Vape is now in Blatant Mode.", 5.5, "assets/WarningNotification.png")
+				local frame = GuiLibrary["CreateNotification"]("Waifu Enabled", "You're vape is now horny", 5.5, "assets/WarningNotification.png")
 				frame.Frame.Frame.ImageColor3 = Color3.fromRGB(236, 129, 44)
 			end)
 		end
