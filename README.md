@@ -1,9 +1,9 @@
 Ip-logger-real
 
 
-#fixed by :NTD
+#first person fixed is :nightmare sans
 -
-#edited by :shuttle
+#stable verison by :shuttle
 -
 -
 -
