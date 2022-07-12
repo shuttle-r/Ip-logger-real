@@ -1,5 +1,11 @@
 # Ip-logger-real
 
 
-removed entity idiot by:NTD
-Stable version by:shuttle
+fixed by :NTD
+
+
+edited by :shuttle
+-
+-
+-
+tiahh broke up with xylex that's why
