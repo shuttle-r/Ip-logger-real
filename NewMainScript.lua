@@ -2,13 +2,14 @@ repeat task.wait() until game:IsLoaded() == true
 
 -- arceus x epic installer
 -- ahh goofy ugly code
+spawn(function() 
 makefolder("vape")
 wait(0.1)
 makefolder("vape/Assets")
 makefolder("vape/assets")
 makefolder("vape/CustomModules") 
 makefolder("vape/Profiles")
-
+end)
 
 
 local injected = true
