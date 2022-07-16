@@ -1,11 +1,5 @@
 repeat task.wait() until game:IsLoaded() == true
-local goofy = game:GetService("StarterGui")
 
-goofy:SetCore("SendNotification", {
-	Title = "Notification";
-	Text = "Credits: Shuttle and NTD and your fat mom";
-	Duration = 5;
-})
 -- arceus x epic installer
 -- ahh goofy ugly code
 makefolder("vape")
@@ -15,13 +9,7 @@ makefolder("vape/assets")
 makefolder("vape/CustomModules") 
 makefolder("vape/Profiles")
 
---checking if you are girl
 
- --if human.girl then
-         -- human.girl:firetouchinterest(melon.entity)
-         -- elseif human.police then
-         -- earth.LocalHuman.Inventory.Gun:Destroy()   
---end
 
 local injected = true
 local oldrainbow = false
