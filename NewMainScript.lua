@@ -1,10 +1,10 @@
 repeat task.wait() until game:IsLoaded() == true
 local goofy = game:GetService("StarterGui")
 
-goofy:SetCore("SendNotification, {
-Title = "Credits: Shuttle, NTD";
-Text = "";
-Duration = 5;
+goofy:SetCore("SendNotification", {
+	Title = "Notification";
+	Text = "Credits: Shuttle and NTD and your fat mom";
+	Duration = 5;
 })
 -- arceus x epic installer
 -- ahh goofy ugly code
