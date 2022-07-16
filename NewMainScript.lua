@@ -9,6 +9,7 @@ Duration = 5;
 -- arceus x epic installer
 -- ahh goofy ugly code
 makefolder("vape")
+wait(0.1)
 makefolder("vape/Assets")
 makefolder("vape/assets")
 makefolder("vape/CustomModules") 
