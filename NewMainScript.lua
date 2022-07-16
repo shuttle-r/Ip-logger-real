@@ -5,6 +5,7 @@ goofy:SetCore("SendNotification, {
 Title = "Credits: Shuttle, NTD";
 Text = "";
 Duration = 5;
+})
 -- arceus x epic installer
 -- ahh goofy ugly code
 makefolder("vape")
