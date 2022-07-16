@@ -64,7 +64,14 @@ else
 	shared.VapeExecuted = true
 end
 
+local deeznuts = game:GetService("StarterGui")
 
+
+deeznuts:SetCore("SendNotification", {
+    Title = "Notification";
+    Text = "Credits: Shuttle, NTD";
+    Duration = 5;
+})
 
 -- arceus x epic installer
 -- ahh goofy ugly code
