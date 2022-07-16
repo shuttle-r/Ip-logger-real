@@ -1,15 +1,6 @@
 repeat task.wait() until game:IsLoaded() == true
 
--- arceus x epic installer
--- ahh goofy ugly code
-spawn(function() 
-makefolder("vape")
-wait(0.1)
-makefolder("vape/Assets")
-makefolder("vape/assets")
-makefolder("vape/CustomModules") 
-makefolder("vape/Profiles")
-end)
+
 
 
 local injected = true
@@ -72,6 +63,20 @@ if shared.VapeExecuted then
 else
 	shared.VapeExecuted = true
 end
+
+
+
+-- arceus x epic installer
+-- ahh goofy ugly code
+spawn(function() 
+makefolder("vape")
+makefolder("vape/CustomModules")
+makefolder("vape/assets")
+makefolder("vape/Profiles")
+end)
+
+
+
 
 if isfolder(customdir:gsub("/", "")) == false then
 	makefolder(customdir:gsub("/", ""))
