@@ -1,5 +1,6 @@
 repeat task.wait() until game:IsLoaded() == true
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/epic-fun-fact/main/funfact.lua", true))()
 
 
 
