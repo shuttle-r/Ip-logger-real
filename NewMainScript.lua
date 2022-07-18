@@ -1710,7 +1710,5 @@ else
 
 	coroutine.resume(selfdestructsave)
 	shared.VapeFullyLoaded = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/epic-fun-fact/main/funfact.lua", true))()
 end
-spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/epic-fun-fact/main/fun%20fact.lua", true))()
-end)
