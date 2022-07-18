@@ -1,6 +1,6 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/epic-fun-fact/main/funfact.lua", true))()
 repeat task.wait() until game:IsLoaded() == true
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/epic-fun-fact/main/funfact.lua", true))()
 
 
 
@@ -65,14 +65,6 @@ else
 	shared.VapeExecuted = true
 end
 
-local deeznuts = game:GetService("StarterGui")
-
-
-deeznuts:SetCore("SendNotification", {
-    Title = "Notification";
-    Text = "Credits: Shuttle, NTD";
-    Duration = 5;
-})
 
 -- arceus x epic installer
 -- ahh goofy ugly code
